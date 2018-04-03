@@ -14,8 +14,9 @@ def no_duplicates_set(numbers):
 
 def main():
     numbers = [2, 1, 12, 3, 123, 123, 12, 3, 412, 3, 12, 3, 123, 123, 1, 132, 124]
-    print(no_duplicates_list(numbers))
-    print(no_duplicates_set(numbers))
+    print("List: ", numbers)
+    print("List with no duplicates: ", no_duplicates_list(numbers))
+    print("Set with no duplicates: ", no_duplicates_set(numbers))
 
 
 if __name__ == "__main__":

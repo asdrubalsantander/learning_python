@@ -1,4 +1,5 @@
-# ex12
+#! /usr/bin/env python
+# 12-list-ends.py
 # Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25])
 # and makes a new list of only the first and last elements of the given list.
 
@@ -9,7 +10,8 @@ def first_last(numbers):
 
 def main():
     a = [5, 10, 15, 20, 25, 10, 15, 20, 25, 10, 15, 20, 25, 10, 15, 20, 22]
-    print(first_last(a))
+    print("List: ", a)
+    print("Lists-ends: ", first_last(a))
 
 
 if __name__ == "__main__":

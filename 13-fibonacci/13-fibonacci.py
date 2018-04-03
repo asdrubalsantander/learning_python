@@ -1,4 +1,5 @@
-# ex13
+#! /usr/bin/env python
+# 13-fibonacci
 # Write a program that asks the user how many Fibonacci numbers to generate and then generates them.
 
 
@@ -9,15 +10,15 @@ def generate_fibonacci(number, fibonacci):
 
 def main():
     number = int(input("How many numbers in the fibonacci sequence: "))
-    
+
     if number == 0:
         fibonacci = [0]
     else:
         fibonacci = [0, 1]
 
-        for i in range(2, number+1):
+        for i in range(2, number + 1):
             generate_fibonacci(i, fibonacci)
-    
+
     print(fibonacci)
 
 

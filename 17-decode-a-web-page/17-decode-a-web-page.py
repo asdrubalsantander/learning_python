@@ -1,4 +1,5 @@
-# ex17.py
+#! /usr/bin/env python
+# 17-decode-a-web-page
 # Use the BeautifulSoup and requests Python packages to print out a
 # list of all the article titles on the New York Times homepage.
 
