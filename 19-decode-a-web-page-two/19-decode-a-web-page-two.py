@@ -8,19 +8,19 @@
 
 import requests
 from bs4 import BeautifulSoup
-import re
 
 
 def main():
-    r = requests.get("https://stackoverflow.com/questions/tagged/python")
-    data = r.text
+    for i in range(1, 5, 1):
+        r = requests.get("https://stackoverflow.com/questions/tagged/python?page=" + str(i))
+        data = r.text
+        soup = BeautifulSoup(data, "html.parser")
 
-    soup = BeautifulSoup(data, "html.parser")
-
-    for node in soup.findAll("div", {"class": "summary"}):
-        #print(re.match(r'([a-zA-Z])', ''.join(node.findAll(text=True))))
-        print(''.join(node.findAll(text=True)))
-
+        for question in soup.select(".question-summary"):
+            for h3 in question.select("h3"):
+                print("# " + h3.text + " #")
+            for excerpt in question.select(".excerpt"):
+                print(excerpt.text.lstrip())
 
 
 if __name__ == '__main__':
