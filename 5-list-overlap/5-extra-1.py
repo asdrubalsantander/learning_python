@@ -5,10 +5,10 @@
 
 from random import randint
 
-a = [randint(0, randint(0,100)) for i in range(randint(0,randint(0,100)))]
-b = [randint(0, randint(0,100)) for i in range(randint(0,randint(0,100)))]
+a = [randint(0, randint(0, 100)) for i in range(randint(0, randint(0, 100)))]
+b = [randint(0, randint(0, 100)) for i in range(randint(0, randint(0, 100)))]
 
-c = [i for i in a for j in b if i == j]
+c = [i for i in a if i in b]
 
 a.sort()
 b.sort()

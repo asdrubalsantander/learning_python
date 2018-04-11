@@ -1,7 +1,7 @@
-# ex14
-# Write a program that takes a list and returns a new list that contains
-# all the elements of the first list minus all the duplicates.
-# Extra 1: Write two different functions to do this - one using a loop and constructing a list, and another using sets.
+#! /usr/bin/env python
+# 14-extra-1
+#
+#  Write two different functions to do this - one using a loop and constructing a list, and another using sets.
 
 
 def no_duplicates_list(numbers):

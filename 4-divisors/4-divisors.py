@@ -6,6 +6,6 @@
 # number. For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
 
 num = int(input("Hit me! \n"))
-final_list = [i for i in range(num,0,-1) if (num % i) == 0]
+final_list = [i for i in range(num, 0, -1) if (num % i) == 0]
 print(final_list)
 
