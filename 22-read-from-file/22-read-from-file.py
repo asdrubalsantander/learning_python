@@ -6,8 +6,12 @@
 
 
 def main():
-    with open("random-names.txt", "r") as file:
-        file.read()
+    file_name = "random-names.txt"
+    with open(file_name, "r") as file:
+        data = file.read()
+
+    print("In the file '" + file_name + "' they are " + str(data.count("\n") + 1) + " lines.")
+
 
 if __name__ == '__main__':
     main()
