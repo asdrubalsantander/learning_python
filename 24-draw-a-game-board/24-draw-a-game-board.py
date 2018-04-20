@@ -21,10 +21,10 @@
 
 def draw_board(x, y):
 
-    for i in range(x):
+    for i in range(y):
         print(" ---" * x)
         print("|", end="")
-        for j in range(y):
+        for j in range(x):
             print("   |", end="")
         print()
     print(" ---" * x)
