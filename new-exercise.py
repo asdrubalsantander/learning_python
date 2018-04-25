@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
     number = int(input("What number of exercise are you going to do? \n Number: "))
 
-    base_url = "http://www.practicepython.org/"
+    base_url = "https://www.practicepython.org/"
 
     path, url, name_unformatted = get_exercise_metadata(base_url, number)
 

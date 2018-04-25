@@ -151,7 +151,15 @@ def main():
 
         draw_player_play(game, current_player)
         if check_winner(game):
-            break
+            play_again = input("Play again? Yes (y) | No (n) : ").lower()
+            if play_again in 'n':
+                    break
+            else:
+                current_player = 2
+                game = [[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]]
+
         current_player = 1 if current_player == 2 else 2
 
 
