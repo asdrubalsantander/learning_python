@@ -31,6 +31,28 @@ def introduction(user_findings):
     print(user_findings)
 
 
+def draw_hangman(lives):
+    parts = ["0", "|", "/", "\\", "/", "\\"]
+
+    hang_man = "\n---------\n"\
+               "|       |\n"\
+               "|       {0}\n"\
+               "|      {2}{1}{3}\n"\
+               "|      {4} {5}\n"\
+               "|\n"\
+               "-----------------"\
+        .format(
+            parts[0] if lives < 6 else " ",
+            parts[1] if lives < 5 else " ",
+            parts[2] if lives < 4 else " ",
+            parts[3] if lives < 3 else " ",
+            parts[4] if lives < 2 else " ",
+            parts[5] if lives < 1 else " "
+        )
+
+    print(hang_man)
+
+
 def ask_letters(secret_word, user_findings, user_used_letters):
     number_guesses = 0
     correct_guess = False
@@ -50,21 +72,25 @@ def ask_letters(secret_word, user_findings, user_used_letters):
             print("Remember you have use the following letters {0}".format(sorted(list(user_used_letters))))
 
         # Print lives
-        print("You only left {0} {1}".format(6 - number_guesses, "tries" if number_guesses < 4 else "try"))
+        # print("You only left {0} {1}".format(6 - number_guesses, "tries" if number_guesses < 4 else "try"))
+        draw_hangman(abs(6 - number_guesses))
 
         user_letter = input("User find the word with one letter at the time: ").lower()
         if len(user_letter) == 1:
             number_guesses += 1
-            user_used_letters.add(user_letter)
             for i, letter in enumerate(secret_word):
                 if user_letter == secret_word[i]:
                     correct_guess = True
                     user_findings[i] = letter
+            os.system("clear")
             print(user_findings)
 
             if correct_guess or user_letter in user_used_letters:
                 number_guesses -= 1
                 correct_guess = False
+
+            user_used_letters.add(user_letter)
+
         else:
             print("Only input one letter, please.")
 
@@ -72,14 +98,22 @@ def ask_letters(secret_word, user_findings, user_used_letters):
 def main():
     path_file = "sowpods.txt"
     num_lines = get_file_count(path_file)
-    num_random = randint(1, num_lines)
-    secret_word = linecache.getline(path_file, num_random).replace("\n", "").lower()
+    play_again = True
 
-    user_findings = ["_" for _ in secret_word]
-    user_used_letters = set()
+    while play_again:
+        num_random = randint(1, num_lines)
+        secret_word = linecache.getline(path_file, num_random).replace("\n", "").lower()
 
-    introduction(user_findings)
-    ask_letters(secret_word, user_findings, user_used_letters)
+        user_findings = ["_" for _ in secret_word]
+        user_used_letters = set()
+
+        introduction(user_findings)
+        ask_letters(secret_word, user_findings, user_used_letters)
+
+        # The game as ended
+        question = input("User do you want to play again? Yes (y) | No (anything else) : ")
+        if question != 'y':
+            play_again = False
 
 
 if __name__ == '__main__':
