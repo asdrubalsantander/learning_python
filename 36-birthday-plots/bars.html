@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.15.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.15.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="74e36380-8ae2-4254-b724-f58d30a966da"></div>
+        </div>
+        
+        <script type="application/json" id="bc151f2f-a019-4b20-9c76-c7234d5045ef">
+          {"bcfa6d6f-cff9-4c9b-8125-f05a96fe9150":{"roots":{"references":[{"attributes":{},"id":"7ae992aa-2244-40cc-b648-cad638ba8f3c","type":"ResetTool"},{"attributes":{},"id":"324d6e34-7f2b-4cf2-91bf-27349a251042","type":"HelpTool"},{"attributes":{},"id":"18ad89ee-2cda-45cd-8ba1-487e3dbbdb35","type":"BasicTicker"},{"attributes":{},"id":"c415cfb9-53e9-4e0e-abdf-33b44b3001c0","type":"LinearScale"},{"attributes":{"data_source":{"id":"b6bbd05e-8009-4c8d-85b2-23772984930b","type":"ColumnDataSource"},"glyph":{"id":"245999e7-5f8c-421b-afb3-79268eb9d956","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"b479adf9-5c4a-4cde-9c78-e0dc1f03fb56","type":"VBar"},"selection_glyph":null,"view":{"id":"344e3fa6-f133-4726-9e4c-0a5e98ce3787","type":"CDSView"}},"id":"6fab1f41-3e94-44d8-a0c1-96bf4256b39c","type":"GlyphRenderer"},{"attributes":{"axis_label":"Birthdays","formatter":{"id":"d70798b0-aaba-478b-8b02-6edafc3dc0c7","type":"BasicTickFormatter"},"plot":{"id":"308674ef-bd19-4912-9e2d-0ec4770dbb00","subtype":"Figure","type":"Plot"},"ticker":{"id":"18ad89ee-2cda-45cd-8ba1-487e3dbbdb35","type":"BasicTicker"}},"id":"b90c9512-d50b-48a7-ad3f-eba509033d7c","type":"LinearAxis"},{"attributes":{"formatter":{"id":"3383d3c7-2cf2-4ca1-a608-3614effb3de0","type":"CategoricalTickFormatter"},"plot":{"id":"308674ef-bd19-4912-9e2d-0ec4770dbb00","subtype":"Figure","type":"Plot"},"ticker":{"id":"cc0b435f-5036-4ff4-8c72-e9562d33815f","type":"CategoricalTicker"}},"id":"385a6b7b-8ee3-4fda-ae01-1cc951622e10","type":"CategoricalAxis"},{"attributes":{},"id":"d70798b0-aaba-478b-8b02-6edafc3dc0c7","type":"BasicTickFormatter"},{"attributes":{},"id":"cc0b435f-5036-4ff4-8c72-e9562d33815f","type":"CategoricalTicker"},{"attributes":{"source":{"id":"b6bbd05e-8009-4c8d-85b2-23772984930b","type":"ColumnDataSource"}},"id":"344e3fa6-f133-4726-9e4c-0a5e98ce3787","type":"CDSView"},{"attributes":{"plot":{"id":"308674ef-bd19-4912-9e2d-0ec4770dbb00","subtype":"Figure","type":"Plot"},"ticker":{"id":"cc0b435f-5036-4ff4-8c72-e9562d33815f","type":"CategoricalTicker"}},"id":"97a773fa-b8f8-4355-bb80-69a132b17339","type":"Grid"},{"attributes":{"dimension":1,"plot":{"id":"308674ef-bd19-4912-9e2d-0ec4770dbb00","subtype":"Figure","type":"Plot"},"ticker":{"id":"18ad89ee-2cda-45cd-8ba1-487e3dbbdb35","type":"BasicTicker"}},"id":"c99880ad-325d-409c-8311-8ff78e3717c5","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"ba4a412d-bf07-4e43-8941-adac57904191","type":"BoxAnnotation"},{"attributes":{},"id":"3383d3c7-2cf2-4ca1-a608-3614effb3de0","type":"CategoricalTickFormatter"},{"attributes":{"fill_color":{"value":"firebrick"},"line_color":{"value":"firebrick"},"top":{"field":"top"},"width":{"value":0.5},"x":{"field":"x"}},"id":"245999e7-5f8c-421b-afb3-79268eb9d956","type":"VBar"},{"attributes":{"callback":null,"end":3},"id":"bd1c858d-002b-42d8-a4e1-00364f667c09","type":"Range1d"},{"attributes":{"callback":null,"column_names":["x","top"],"data":{"top":[2,1,2,1,2,2],"x":["January","March","April","July","September","December"]},"selected":null,"selection_policy":null},"id":"b6bbd05e-8009-4c8d-85b2-23772984930b","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.5},"x":{"field":"x"}},"id":"b479adf9-5c4a-4cde-9c78-e0dc1f03fb56","type":"VBar"},{"attributes":{},"id":"1f71c072-bb6f-4483-bc36-764394373f69","type":"PanTool"},{"attributes":{"below":[{"id":"385a6b7b-8ee3-4fda-ae01-1cc951622e10","type":"CategoricalAxis"}],"left":[{"id":"b90c9512-d50b-48a7-ad3f-eba509033d7c","type":"LinearAxis"}],"plot_height":400,"plot_width":800,"renderers":[{"id":"385a6b7b-8ee3-4fda-ae01-1cc951622e10","type":"CategoricalAxis"},{"id":"97a773fa-b8f8-4355-bb80-69a132b17339","type":"Grid"},{"id":"b90c9512-d50b-48a7-ad3f-eba509033d7c","type":"LinearAxis"},{"id":"c99880ad-325d-409c-8311-8ff78e3717c5","type":"Grid"},{"id":"ba4a412d-bf07-4e43-8941-adac57904191","type":"BoxAnnotation"},{"id":"6fab1f41-3e94-44d8-a0c1-96bf4256b39c","type":"GlyphRenderer"}],"title":{"id":"220eb055-994e-46c9-9a3f-7f7b644334e9","type":"Title"},"toolbar":{"id":"6e36ab9d-1dd5-4118-bf43-681ee8575e8d","type":"Toolbar"},"x_range":{"id":"503f8fe7-9ec0-4bfe-87f4-fcbc17f077c9","type":"FactorRange"},"x_scale":{"id":"c456c4af-0b38-4276-945e-5cd9fb50039a","type":"CategoricalScale"},"y_range":{"id":"bd1c858d-002b-42d8-a4e1-00364f667c09","type":"Range1d"},"y_scale":{"id":"c415cfb9-53e9-4e0e-abdf-33b44b3001c0","type":"LinearScale"}},"id":"308674ef-bd19-4912-9e2d-0ec4770dbb00","subtype":"Figure","type":"Plot"},{"attributes":{"plot":null,"text":"Amount of Birthdays of Scientists by Months"},"id":"220eb055-994e-46c9-9a3f-7f7b644334e9","type":"Title"},{"attributes":{},"id":"e11b0574-70c1-437b-89b8-e83e2c785d53","type":"WheelZoomTool"},{"attributes":{"callback":null,"factors":["January","February","March","April","May","June","July","August","September","October","November","December"]},"id":"503f8fe7-9ec0-4bfe-87f4-fcbc17f077c9","type":"FactorRange"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"1f71c072-bb6f-4483-bc36-764394373f69","type":"PanTool"},{"id":"e11b0574-70c1-437b-89b8-e83e2c785d53","type":"WheelZoomTool"},{"id":"d308ea3c-b986-40dd-ac97-e854cc95686f","type":"BoxZoomTool"},{"id":"1587e143-b0c2-4d7e-8e9e-a903904d9a16","type":"SaveTool"},{"id":"7ae992aa-2244-40cc-b648-cad638ba8f3c","type":"ResetTool"},{"id":"324d6e34-7f2b-4cf2-91bf-27349a251042","type":"HelpTool"}]},"id":"6e36ab9d-1dd5-4118-bf43-681ee8575e8d","type":"Toolbar"},{"attributes":{"overlay":{"id":"ba4a412d-bf07-4e43-8941-adac57904191","type":"BoxAnnotation"}},"id":"d308ea3c-b986-40dd-ac97-e854cc95686f","type":"BoxZoomTool"},{"attributes":{},"id":"1587e143-b0c2-4d7e-8e9e-a903904d9a16","type":"SaveTool"},{"attributes":{},"id":"c456c4af-0b38-4276-945e-5cd9fb50039a","type":"CategoricalScale"}],"root_ids":["308674ef-bd19-4912-9e2d-0ec4770dbb00"]},"title":"Bokeh Application","version":"0.12.15"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('bc151f2f-a019-4b20-9c76-c7234d5045ef').textContent;
+                  var render_items = [{"docid":"bcfa6d6f-cff9-4c9b-8125-f05a96fe9150","elementid":"74e36380-8ae2-4254-b724-f58d30a966da","modelid":"308674ef-bd19-4912-9e2d-0ec4770dbb00"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
