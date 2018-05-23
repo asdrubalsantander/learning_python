@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import StaleElementReferenceException
 from bs4 import BeautifulSoup
 from time import sleep
 
@@ -22,12 +23,14 @@ def main():
 
         sleep(0.5)
 
-        html = driver.page_source
-        soup = BeautifulSoup(html, "html.parser")
+        html_municipios = driver.page_source
+        soup_municipios = BeautifulSoup(html_municipios, "html.parser")
 
-        municipios = soup.find('select', id="ctl00_ContentPlaceHolder2_cboMunicipio")
+        # municipios = soup_municipios.find('select', id="ctl00_ContentPlaceHolder2_cboMunicipio")
+        municipios = ['Cucuta']
 
-        for municipio in municipios.stripped_strings:
+        # for municipio in municipios.stripped_strings:
+        for municipio in municipios:
             select = Select(driver.find_element_by_id('ctl00_ContentPlaceHolder2_cboMunicipio'))
             select.select_by_visible_text(municipio)
 
@@ -45,15 +48,29 @@ def main():
                 submit_button = driver.find_element_by_id('ctl00_ContentPlaceHolder2_btnConsultar')
                 submit_button.click()
 
-                sleep(2.5)
+                sleep(0.5)
 
                 try:
                     table = driver.find_element_by_id('ctl00_ContentPlaceHolder1_DataList1')
+                except StaleElementReferenceException:
+                    pass
                 except NoSuchElementException:
                     submit_button = driver.find_element_by_id('ctl00_ContentPlaceHolder2_ImageButton10')
                     submit_button.click()
                     print("Para la ciudad: {} con el segmento: {} y todas las marcas no se encontro resultado."
                           .format(municipio, segmento))
+                    sleep(0.5)
+                else:
+                    data = []
+
+                    html_datos = driver.page_source
+                    soup_datos = BeautifulSoup(html_datos, "html.parser")
+
+                    table = soup_datos.find("table", id="ctl00_ContentPlaceHolder1_DataList1").text  # split()
+
+
+
+                    print(table)
 
 
 if __name__ == '__main__':
