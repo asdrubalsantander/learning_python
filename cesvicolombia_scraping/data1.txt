@@ -1,0 +1,939 @@
+************************************
+Para la ciudad: Abrego con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Abrego con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Arboledas con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Arboledas con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bochalema con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bochalema con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bucarasica con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bucarasica con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cachirá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cachirá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cácota con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cácota con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chinácota con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chinácota con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chitagá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chitagá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Convención con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Convención con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cucuta con el segmento: 1 - LIVIANOS y todas las marcas se encontro:
+	TALLERES TAMA DE COLOMBIA
+		No se encontro información
+		No se encontro información
+	TALLER PUNTO AZUL
+		No se encontro información
+		No se encontro información
+	MAOTECH S.A.S
+		AUTOP INTERNAL REDOMA SAN MATEO
+		5761544/0509
+	TECNICOMPACTOS DE ORIENTE LTDA
+		CALLE 7 A # 3 E 44 BARRIO POPULAR
+		5744066 / 3238528
+	TALLER MONTES Y CIA LTDA
+		AV 6 # 7N-71 ZONA INDUSTRIAL
+		5780209
+	PROAUTOS
+		CLL 10 N# 11 - 48 BARRIO LLANO
+		5940341/5722427
+	SERVICIO AUTOMOTRIZ ESPECIALIZADO
+		No se encontro información
+		No se encontro información
+	PROAUTOS
+		No se encontro información
+		No se encontro información
+	TALLER LA MORENA
+		No se encontro información
+		No se encontro información
+	FERSAUTOS SAS - CUCUTA
+		AV 7A 8N-58 BARRIO SEVILLA
+		5780457 EXT 108
+	AUTO STOK - CUCUTA
+		AUTOPISTA INTERNACIONAL KM 3 K43 LOMITAS
+		5943434
+	TALLERES AUTORIZADOS - CUCUTA
+		DIAG. SANTANDER #5E-24
+		5892173
+	MAYORAUTOS - CUCUTA
+		AUT. INTERNACIONAL VIA SAN ANTONIO KM 3 - LOMITAS
+		5732659
+	ADIMOTORS S.A.S
+		CALLE 19 #1AE-56 URB LOS LIBERTADORES
+		3013811945
+************************************
+Para la ciudad: Cucuta con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cucutilla con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cucutilla con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Durania con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Durania con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Carmen con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Carmen con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Tarra con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Tarra con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Zulia con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Zulia con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Gramalote con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Gramalote con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Hacarí con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Hacarí con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Herrán con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Herrán con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Esperanza con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Esperanza con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Playa con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Playa con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Labateca con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Labateca con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Los Patios con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Los Patios con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Lourdes con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Lourdes con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Mutiscua con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Mutiscua con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Ocaña con el segmento: 1 - LIVIANOS y todas las marcas se encontro:
+	MULTISERVICIO TECNIMAZDA
+		No se encontro información
+		No se encontro información
+************************************
+Para la ciudad: Ocaña con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Pamplona con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Pamplona con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Pamplonita con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Pamplonita con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Puerto Santander con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Puerto Santander con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Ragonvalia con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Ragonvalia con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Salazar con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Salazar con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Calixto con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Calixto con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Cayetano con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Cayetano con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Santiago con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Santiago con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Sardinata con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Sardinata con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Silos con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Silos con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Teorama con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Teorama con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Tibú con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Tibú con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Toledo con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Toledo con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Villa Caro con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Villa Caro con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Villa Del Rosario con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Villa Del Rosario con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: -Seleccione- con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: -Seleccione- con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Aguada con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Aguada con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Albania con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Albania con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Aratoca con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Aratoca con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Barbosa con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Barbosa con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Barichara con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Barichara con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Barrancabermeja con el segmento: 1 - LIVIANOS y todas las marcas se encontro:
+	TALLER ALFAMA
+		AV 36 #55A - 74
+		6220387
+	TALLER ESPECIALIZADOS
+		No se encontro información
+		No se encontro información
+	SINCROINYECCION
+		No se encontro información
+		No se encontro información
+	SANAUTOS S.A
+		CALLE 48 N 22-82
+		6224291
+	MAYORAUTOS
+		km 1 via Bucaramanga sector el reten
+		6108833
+************************************
+Para la ciudad: Barrancabermeja con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Betulia con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Betulia con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bolívar con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bolívar con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bucaramanga con el segmento: 1 - LIVIANOS y todas las marcas se encontro:
+	CAR HYUNDAI  S.A.
+		No se encontro información
+		No se encontro información
+	CAMPESA S.A
+		CRA 16 # 45-64
+		(7) 6432721 E.2151/52
+	CENTRAL MOTOR HYUNDAI LTDA
+		AUTOP FLORIDABLANCA PARALELA ORIENTAL # 112-111
+		(7) 6313001
+	AUTOCENTER
+		CRA 20 # 51A-106
+		6433589
+	NEPOMUCENO VELASQUEZ H
+		CRA 17 # 58-135
+		(7) 6448342
+	CODIESEL
+		KM 7 VIA GIRON
+		PBX: 6468606
+	SERVICAMPEROS
+		CRA 17 NO 15 - 36 SAN FRANCISCO
+		(7) 6714404
+	S.E. MUNDIAL DE COLISIONES S.A.S
+		CLL 21 # 15 - 48
+		6974911
+	TECNOCHASIS LTDA
+		CRA 18 # 51-207 BARRIO LA CONCORDIA
+		6339770
+	COOPTECNICAR (ANTES  HUGO SOTO)
+		No se encontro información
+		No se encontro información
+	TALLERES AUTORIZADOS S.A
+		ANILLO VIAL GIRON-FLORI KM.2.5
+		6917060
+	MAYORAUTOS S.A.S
+		AV LA ROSITA # 26-48
+		(7) 6323434
+	MOTORESTE S.A
+		AUT FLORIDABLANCA  KM  # 91-55
+		(7) 6360160 / 6360000
+	PARRA ARANGO Y CIA LTDASUC BUCARAMANGA
+		No se encontro información
+		No se encontro información
+	AUTO LACER LTDA
+		No se encontro información
+		No se encontro información
+	TALLER AUTO FRANCIA
+		CRA 12 # 22 - 42
+		6338888
+	INGE COCHES LTDA
+		No se encontro información
+		No se encontro información
+	MOTORES DEL ORIENTE (ANTES AUTORIENTE)
+		No se encontro información
+		No se encontro información
+	SANAUTOS S.A.
+		CALLE 29 # 14 - 48
+		(7) 67910502 EXT 1110
+	PRACO DICDACOL - BUCARAMANGA
+		CLL 70 # 32W-92 KM.4 VIA GIRON
+		6910200
+	DISTOYOTA
+		CRA 21 # 50 - 40
+		6703434
+	TRANSPORTES CIUDAD BONITA
+		No se encontro información
+		No se encontro información
+	CENTRO TAXIS S.A
+		DIAGONAL 15 # 63-20
+		6573300
+	BRACHOAUTOS S.A.S
+		AV. GONZALEZ VALENCIA # 51-40
+		6808000
+	PROMOTORES DEL ORIENTE
+		CARRERA 13 N 19 - 52
+		6718632
+	COLSERAUTO S.A.
+		CRA 201 # 51 A 106
+		6433589
+************************************
+Para la ciudad: Bucaramanga con el segmento: 2 - PESADOS y todas las marcas se encontro:
+	CAMPESA S.A
+		CRA 16 # 45-64
+		(7) 6432721 E.2151/52
+	CENTRAL MOTOR HYUNDAI LTDA
+		AUTOP FLORIDABLANCA PARALELA ORIENTAL # 112-111
+		(7) 6313001
+	CODIESEL
+		KM 7 VIA GIRON
+		PBX: 6468606
+	S.E. MUNDIAL DE COLISIONES S.A.S
+		CLL 21 # 15 - 48
+		6974911
+	TECNOCHASIS LTDA
+		CRA 18 # 51-207 BARRIO LA CONCORDIA
+		6339770
+	MOTORESTE S.A
+		AUT FLORIDABLANCA  KM  # 91-55
+		(7) 6360160 / 6360000
+	TALLER AUTO FRANCIA
+		CRA 12 # 22 - 42
+		6338888
+	PRACO DICDACOL - BUCARAMANGA
+		CLL 70 # 32W-92 KM.4 VIA GIRON
+		6910200
+	DINACOSTA INTERNACIONAL
+		CLL 55 # 16-01 LOCAL 20 PALENQUE GIRON
+		6463245 CEL 3174299095
+	CASA INGLESA - IVOR
+		Cra. 29a # 39 – 50 GIRON
+		646-7854
+************************************
+Para la ciudad: Cabrera con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cabrera con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: California con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: California con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Capitanejo con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Capitanejo con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Carcasí con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Carcasí con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cepitá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cepitá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cerrito con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cerrito con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Charalá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Charalá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Charta con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Charta con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chima con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chima con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chipatá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chipatá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cimitarra con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cimitarra con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Concepción con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Concepción con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Confines con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Confines con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Contratación con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Contratación con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Coromoro con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Coromoro con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Curití con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Curití con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Carmen De Chucurí con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Carmen De Chucurí con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Guacamayo con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Guacamayo con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Peñón con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Peñón con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Playón con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Playón con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Encino con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Encino con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Enciso con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Enciso con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Florián con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Florián con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Floridablanca con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Floridablanca con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Galán con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Galán con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Gambita con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Gambita con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Girón con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Girón con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Guaca con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Guaca con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Guadalupe con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Guadalupe con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Guapotá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Guapotá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Guavatá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Guavatá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Güepsa con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Güepsa con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Hato con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Hato con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Jesús María con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Jesús María con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Jordán con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Jordán con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Belleza con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Belleza con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Paz con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Paz con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Landázuri con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Landázuri con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Lebríja con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Lebríja con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Los Santos con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Los Santos con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Macaravita con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Macaravita con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Málaga con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Málaga con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Matanza con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Matanza con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Mogotes con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Mogotes con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Molagavita con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Molagavita con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Ocamonte con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Ocamonte con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Oiba con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Oiba con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Onzaga con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Onzaga con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Palmar con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Palmar con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Palmas Del Socorro con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Palmas Del Socorro con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Páramo con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Páramo con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Piedecuesta con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Piedecuesta con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Pinchote con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Pinchote con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Puente Nacional con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Puente Nacional con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Puerto Parra con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Puerto Parra con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Puerto Wilches con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Puerto Wilches con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Rionegro con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Rionegro con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Sabana De Torres con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Sabana De Torres con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Andrés con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Andrés con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Benito con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Benito con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Gil con el segmento: 1 - LIVIANOS y todas las marcas se encontro:
+	TALLER BELTRAN SAN GIL S.A.S
+		CLL 15 # 12-12
+		7242993-3212051323
+************************************
+Para la ciudad: San Gil con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Joaquín con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Joaquín con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San José De Miranda con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San José De Miranda con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Miguel Santander con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Miguel Santander con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Vicente De Chucurí con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: San Vicente De Chucurí con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Santa Bárbara con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Santa Bárbara con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Santa Helena Del Opón con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Santa Helena Del Opón con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Simacota con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Simacota con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Socorro con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Socorro con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Suaita con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Suaita con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Sucre con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Sucre con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Suratá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Suratá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Tona con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Tona con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Valle De San José con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Valle De San José con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Vélez con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Vélez con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Vetas con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Vetas con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Villanueva con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Villanueva con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Zapatoca con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Zapatoca con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: -Seleccione- con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: -Seleccione- con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************

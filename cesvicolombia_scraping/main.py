@@ -6,6 +6,15 @@ from bs4 import BeautifulSoup
 from time import sleep
 
 
+SLEEP_TIME = 2
+
+
+def write_data(data):
+    with open('data.txt', 'a') as file:
+        for _, text in enumerate(data):
+            file.write(text)
+
+
 def main():
     driver = webdriver.Chrome('./chromedriver')
     driver.get("http://desarrollos.cesvicolombia.com/pctweb/Master/frmConsultas.aspx")
@@ -13,7 +22,7 @@ def main():
     select = Select(driver.find_element_by_id('ctl00_ContentPlaceHolder2_cboPaises'))
     select.select_by_visible_text('Colombia')
 
-    sleep(0.5)
+    sleep(SLEEP_TIME)
     departamentos = ['Norte de Santander de Santander', 'Santander']
     segmentos = ['1 - LIVIANOS', '2 - PESADOS']
 
@@ -21,26 +30,24 @@ def main():
         select = Select(driver.find_element_by_id('ctl00_ContentPlaceHolder2_cboDepartamentos'))
         select.select_by_visible_text(departamento)
 
-        sleep(0.5)
+        sleep(SLEEP_TIME)
 
         html_municipios = driver.page_source
         soup_municipios = BeautifulSoup(html_municipios, "html.parser")
 
-        # municipios = soup_municipios.find('select', id="ctl00_ContentPlaceHolder2_cboMunicipio")
-        municipios = ['Cucuta']
+        municipios = soup_municipios.find('select', id="ctl00_ContentPlaceHolder2_cboMunicipio")
 
-        # for municipio in municipios.stripped_strings:
-        for municipio in municipios:
+        for municipio in municipios.stripped_strings:
             select = Select(driver.find_element_by_id('ctl00_ContentPlaceHolder2_cboMunicipio'))
             select.select_by_visible_text(municipio)
 
-            sleep(0.5)
+            sleep(SLEEP_TIME)
 
             for segmento in segmentos:
                 select = Select(driver.find_element_by_id('ctl00_ContentPlaceHolder2_cboSegmento'))
                 select.select_by_visible_text(segmento)
 
-                sleep(0.5)
+                sleep(SLEEP_TIME)
 
                 select = Select(driver.find_element_by_id('ctl00_ContentPlaceHolder2_cboMarcas'))
                 select.select_by_visible_text('todas')
@@ -48,29 +55,45 @@ def main():
                 submit_button = driver.find_element_by_id('ctl00_ContentPlaceHolder2_btnConsultar')
                 submit_button.click()
 
-                sleep(0.5)
+                sleep(SLEEP_TIME * 3)
 
                 try:
+                    data = []
                     table = driver.find_element_by_id('ctl00_ContentPlaceHolder1_DataList1')
                 except StaleElementReferenceException:
                     pass
                 except NoSuchElementException:
                     submit_button = driver.find_element_by_id('ctl00_ContentPlaceHolder2_ImageButton10')
                     submit_button.click()
-                    print("Para la ciudad: {} con el segmento: {} y todas las marcas no se encontro resultado."
-                          .format(municipio, segmento))
-                    sleep(0.5)
+                    data.append("************************************\n"
+                                "Para la ciudad: {} con el segmento: {} y todas las marcas no se encontro resultado.\n"
+                                "************************************\n"
+                                .format(municipio, segmento))
+                    write_data(data)
+                    sleep(SLEEP_TIME)
                 else:
-                    data = []
-
                     html_datos = driver.page_source
                     soup_datos = BeautifulSoup(html_datos, "html.parser")
 
-                    table = soup_datos.find("table", id="ctl00_ContentPlaceHolder1_DataList1").text  # split()
+                    tds = soup_datos.find_all("td", {"class": "style73"})
 
+                    data.append("************************************\n"
+                                "Para la ciudad: {} con el segmento: {} y todas las marcas se encontro:\n"
+                                .format(municipio, segmento))
 
+                    write_data(data)
 
-                    print(table)
+                    for i, td in enumerate(tds):
+                        span = td.find("span")
+                        info = span.text
+
+                        indentation = '\t\t'
+
+                        if i % 3 == 0:
+                            indentation = '\t'
+                        if info == '':
+                            info = 'No se encontro información'
+                        write_data(indentation + info + '\n')
 
 
 if __name__ == '__main__':

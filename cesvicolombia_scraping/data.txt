@@ -1,0 +1,152 @@
+************************************
+Para la ciudad: Abrego con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Abrego con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Arboledas con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Arboledas con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bochalema con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bochalema con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bucarasica con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Bucarasica con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cachirá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cachirá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cácota con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cácota con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chinácota con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chinácota con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chitagá con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Chitagá con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Convención con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Convención con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cucuta con el segmento: 1 - LIVIANOS y todas las marcas se encontro:
+	TALLERES TAMA DE COLOMBIA
+		No se encontro información
+		No se encontro información
+	TALLER PUNTO AZUL
+		No se encontro información
+		No se encontro información
+	MAOTECH S.A.S
+		AUTOP INTERNAL REDOMA SAN MATEO
+		5761544/0509
+	TECNICOMPACTOS DE ORIENTE LTDA
+		CALLE 7 A # 3 E 44 BARRIO POPULAR
+		5744066 / 3238528
+	TALLER MONTES Y CIA LTDA
+		AV 6 # 7N-71 ZONA INDUSTRIAL
+		5780209
+	PROAUTOS
+		CLL 10 N# 11 - 48 BARRIO LLANO
+		5940341/5722427
+	SERVICIO AUTOMOTRIZ ESPECIALIZADO
+		No se encontro información
+		No se encontro información
+	PROAUTOS
+		No se encontro información
+		No se encontro información
+	TALLER LA MORENA
+		No se encontro información
+		No se encontro información
+	FERSAUTOS SAS - CUCUTA
+		AV 7A 8N-58 BARRIO SEVILLA
+		5780457 EXT 108
+	AUTO STOK - CUCUTA
+		AUTOPISTA INTERNACIONAL KM 3 K43 LOMITAS
+		5943434
+	TALLERES AUTORIZADOS - CUCUTA
+		DIAG. SANTANDER #5E-24
+		5892173
+	MAYORAUTOS - CUCUTA
+		AUT. INTERNACIONAL VIA SAN ANTONIO KM 3 - LOMITAS
+		5732659
+	ADIMOTORS S.A.S
+		CALLE 19 #1AE-56 URB LOS LIBERTADORES
+		3013811945
+************************************
+Para la ciudad: Cucuta con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cucutilla con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Cucutilla con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Durania con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Durania con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Carmen con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Carmen con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Tarra con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Tarra con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Zulia con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: El Zulia con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Gramalote con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Gramalote con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Hacarí con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Hacarí con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Herrán con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: Herrán con el segmento: 2 - PESADOS y todas las marcas no se encontro resultado.
+************************************
+************************************
+Para la ciudad: La   Esperanza con el segmento: 1 - LIVIANOS y todas las marcas no se encontro resultado.
+************************************
