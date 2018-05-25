@@ -1,4 +1,6 @@
 from random import shuffle
+from time import sleep
+import os
 
 SUITS = '♣ ♦ ♥ ♠'.split()
 RANKS = '2 3 4 5 6 7 8 9 10 J Q K A'.split()
@@ -61,7 +63,7 @@ class Player:
     def play_card(self, war_count):
         """Prints the card played suit and rank, and return the value of that card.
          This method takes in consideration the count of war."""
-        print("{} plays: {}{}".format(self.name, self.hand.cards[war_count * 4][0], self.hand.cards[war_count * 4][1]))
+        print("{} plays: {}  {}".format(self.name, self.hand.cards[war_count * 4][0], self.hand.cards[war_count * 4][1]))
         return self.hand.cards[war_count * 4][2]
 
     def check_cards(self, amount_to_check=1):
@@ -119,12 +121,18 @@ def main():
 
     war_count = 0
 
+    os.system('clear')
+
     while True:
+        print('')
         if not player.check_cards(4) or not bot.check_cards(4):
             break
 
         war = battle(player, bot, war_count)
+        print('')
         print_score(player, bot)
+
+        sleep(2)
 
         war_count = war_count + 1 if war else 0
 
