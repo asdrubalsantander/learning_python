@@ -1,0 +1,7 @@
+New Model called User:
+- First Name
+- Last Name
+- Email
+Create a script to populate the database
+Confirm the new data through the admin interface
+Create a view for the users under /users and remember use templates
