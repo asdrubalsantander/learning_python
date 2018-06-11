@@ -8,5 +8,14 @@ def index(request):
 
 def form_view(request):
     form = forms.FormClass()
-    form_dict = {'form': form}
-    return render(request, 'form.html', context=form_dict)
+
+    if request.method == "POST":
+        form = forms.FormClass(request.POST)
+
+        if form.is_valid():
+            print("VALIDATION SUCCESS!")
+            print(form.cleaned_data['name'])
+            print(form.cleaned_data['email'])
+
+    return render(request, 'form.html', {'form':form})
+
