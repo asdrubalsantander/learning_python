@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>User Create</title>
+
+</head>
+<body>
+    <h1> LOGIN: </h1>
+    <form method="POST">
+
+        {{form.as_p}}
+        {% csrf_token %}
+        <button type="submit">Login</button>
+
+    </form>
+</body>
+</html>
