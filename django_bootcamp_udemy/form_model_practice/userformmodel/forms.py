@@ -9,4 +9,4 @@ class UserForm(forms.ModelForm):
             'password': forms.PasswordInput(),
         }
 
-        fields = ('first_name', 'last_name', 'email', 'password')
+        fields = ['first_name', 'last_name', 'email', 'password']

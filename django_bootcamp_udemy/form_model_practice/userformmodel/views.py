@@ -15,6 +15,8 @@ def user_create(request):
 
         if form.is_valid():
             print("Form VALID")
+            form.save()
+            print("Form Saved")
 
     return render(request, "userformmodel/user_create.html", {'form':form})
 
