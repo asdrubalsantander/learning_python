@@ -4,7 +4,7 @@ from basic_app import views
 
 app_name = "basic_app"
 
-urlpatters = [
-    path('register/$', views.register, name="register")
-
+urlpatterns = [
+    path('register/', views.register, name="register"),
+    path('user_login/', views.user_login, name="user_login"),
 ]

@@ -6,9 +6,9 @@ def index(request):
 
 
 def other(request):
-    return render(request, 'basic_app/other.html', context=None)
+    context_dict = {'number': 100}
+    return render(request, 'basic_app/other.html', context=context_dict)
 
 
 def relative(request):
     return render(request, 'basic_app/relative_url_templates.html', context=None)
-

@@ -18,11 +18,17 @@
                     <a class="nav-link" href="{% url 'index' %}">HOME</a>
                 </li>
                 <li class="nav-item {% if request.path == '/basic_app/other' %} active {% endif %}">
-                    <a class="nav-link" href="{% url 'basic_app:registration' %}">REGISTRATION</a>
+                    <a class="nav-link" href="{% url 'basic_app:register' %}">REGISTRATION</a>
                 </li>
-                <li class="nav-item {% if request.path == '/basic_app/relative' %} active {% endif %}">
-                    <a class="nav-link" href="{% url 'basic_app:LOGIN' %}">LOGIN</a>
-                </li>
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'logout' %}">LOGOUT</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'basic_app:user_login' %}">LOGIN</a>
+                    </li>
+                {% endif %}
             </ul>
         </div>
     </nav>
