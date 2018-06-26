@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
+    <meta charset="UTF-8">
+    <title>My Blog | {% block title %} {% endblock %}</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="w-25 order-0">
+        <a class="navbar-brand mr-auto" href="#">My Tech Blog</a>
+    </div>
+
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/asdrubalsantander/">Github</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.djangoproject.com/">Django</a>
+            </li>
+        </ul>
+    </div>
+
+    {% if user.is_authenticated %}
+    <div class="navbar-collapse collapse w-50 order-3 order-md-3 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">New Post</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Drafts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'logout' %}">Log out</a>
+            </li>
+            <li class="nav-item">
+                 <span class="navbar-text">
+                    Welcome: {{user.username}}
+                  </span>
+            </li>
+        </ul>
+    </div>
+    {% else %}
+    <div class="navbar-collapse collapse w-20 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="{% url 'login' %}">
+                    <img class="img-thumbnail" style="height:100%" src="{% static 'blog/images/avatar.svg' %}" alt="Login">
+                </a>
+            </li>
+        </ul>
+    </div>
+    {% endif %}
+
+</nav>
+<div class="container">
+{% block body %}
+{% endblock %}
+</div>
+
+</body>
+</html>
