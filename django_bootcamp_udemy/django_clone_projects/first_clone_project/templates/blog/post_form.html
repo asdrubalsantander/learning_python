@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %} Blog | Create {% endblock %}
+
+{% block body %}
+
+<h1>
+    {% if not form.instance.pk %}
+        Create Blog
+    {% else %}
+        Update Blog
+    {% endif %}
+</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input class="btn btn-primary" type="submit" value="Submit">
+
+</form>
+
+
+{% endblock %}
