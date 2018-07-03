@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.urls import reverse
 
+
 class Post(models.Model):
     title = models.CharField(max_length=120)
     text = models.TextField(max_length=1024)
@@ -20,6 +21,9 @@ class Comment(models.Model):
     date_created = models.DateField(auto_now_add=True)
     is_approved = models.BooleanField(default=False)
     post = models.ForeignKey(Post, models.CASCADE)
+
+    def get_absolute_url(self):
+        return reverse('detail/', kwargs={'pk': 1})
 
     def __str__(self):
         return self.text

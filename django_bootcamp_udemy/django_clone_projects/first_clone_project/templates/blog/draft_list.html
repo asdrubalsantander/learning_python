@@ -1,15 +1,15 @@
 {% extends 'base.html' %}
 
-{% block title %} Home {% endblock %}
+{% block title %} Drafts {% endblock %}
 
 {% block body %}
-    <h1> Welcome to my Blog! </h1>
+    <h1> Unpublished Posts </h1>
     <ol>
         {% for post in post_list %}
-            {% if post.is_published %}
+            {% if not post.is_published %}
                 <div class="container">
                     <h2>
-                        <li><a href="blog/{{post.id}}">{{ post.title }}</a></li>
+                        <li><a href="{{post.get_absolute_url}}blog/{{post.id}}">{{ post.title }}</a></li>
                     </h2>
                     <h5>Created:{{ post.date_created }}</h5>
                     <h5>Updated:{{ post.date_updated }}</h5>

@@ -1,22 +1,23 @@
 {% extends 'base.html' %}
 
-{% block title %} Blog | Create {% endblock %}
+{% block title %} Comment | Create {% endblock %}
 
 {% block body %}
 
 <h1>
     {% if not form.instance.pk %}
-        Create Blog
+        Create Comment
     {% else %}
-        Update Blog
+        Update Comment
     {% endif %}
+
 </h1>
 
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <input class="btn btn-primary" type="submit" value="Submit">
-    <a href="{% url 'home' %}" class="btn btn-danger">Cancel</a>
+
 </form>
 
 
