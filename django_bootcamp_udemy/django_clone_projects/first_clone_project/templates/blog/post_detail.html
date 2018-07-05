@@ -18,6 +18,10 @@
             </a>
             {% endif %}
 
+            {% for comment in post.comment_set.all %}
+                <br>
+                {{ comment.text }}
+            {% endfor %}
             <a class="btn btn-secondary" href="{% url 'blog:create_comment' pk=post.pk %}">Comment</a>
         </p>
     </div>

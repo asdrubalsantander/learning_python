@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
 from django.views.generic import CreateView, DeleteView, UpdateView, ListView, DetailView
 from . import models
+from .forms import CommentForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 
@@ -36,10 +37,15 @@ class PostUpdateView(LoginRequiredMixin, UpdateView):
     model = models.Post
 
 
-class CommentCreateView(CreateView):
-    fields = ('username', 'text')
-    model = models.Comment
-
-    def form_valid(self, form):
-        form.instance.post = models.Post.objects.get(id=1)
-        return super(CommentCreateView, self).form_valid(form)
+def comment_create(request, pk):
+    post = get_object_or_404(models.Post, pk=pk)
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid:
+            comment = form.save(commit=False)
+            comment.post = post
+            comment.save()
+            return redirect('blog:detail', pk=post.pk)
+    else:
+        form = CommentForm()
+    return render(request, 'blog/comment_form.html', {'form': form})

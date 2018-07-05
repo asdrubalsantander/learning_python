@@ -23,7 +23,7 @@ class Comment(models.Model):
     post = models.ForeignKey(Post, models.CASCADE)
 
     def get_absolute_url(self):
-        return reverse('detail/', kwargs={'pk': 1})
+        return reverse('home')
 
     def __str__(self):
         return self.text
