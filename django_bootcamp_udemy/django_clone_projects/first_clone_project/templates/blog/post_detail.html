@@ -11,18 +11,26 @@
 
     <div class="container">
         <p>
-            <a href=""></a>
             {% if user.is_authenticated %}
-            <a clas="btn btn-secondary" href="{% url 'blog:update' pk=post.pk %}">
-                Edit
-            </a>
+                <a class="btn btn-secondary" href="{% url 'blog:update' pk=post.pk %}">Edit Post</a>
             {% endif %}
 
+            <h2>Comments:</h2>
             {% for comment in post.comment_set.all %}
-                <br>
-                {{ comment.text }}
+                {% if comment.is_approved or user.is_authenticated %}
+                    {% if not comment.is_approved %}
+                        <a href="{% url 'blog:approve_comment' pk=comment.pk %}">Approve</a>
+                        <a href="{% url 'blog:delete_comment' pk=comment.pk %}">Delete</a>
+                    {% endif %}
+                    {{ comment.date_created}} {{ comment.username }} says:
+                    <br>
+                    {{ comment.text }}
+                    <br>
+
+                {% endif %}
             {% endfor %}
-            <a class="btn btn-secondary" href="{% url 'blog:create_comment' pk=post.pk %}">Comment</a>
+
+            <p><a class="btn btn-secondary" href="{% url 'blog:create_comment' pk=post.pk %}">New Comment</a></p>
         </p>
     </div>
 

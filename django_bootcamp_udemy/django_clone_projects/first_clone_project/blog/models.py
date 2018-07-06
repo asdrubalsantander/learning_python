@@ -22,6 +22,10 @@ class Comment(models.Model):
     is_approved = models.BooleanField(default=False)
     post = models.ForeignKey(Post, models.CASCADE)
 
+    def approve_comment(self):
+        self.is_approved = True
+        self.save()
+
     def get_absolute_url(self):
         return reverse('home')
 

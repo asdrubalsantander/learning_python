@@ -49,3 +49,15 @@ def comment_create(request, pk):
     else:
         form = CommentForm()
     return render(request, 'blog/comment_form.html', {'form': form})
+
+
+def comment_approve(request, pk):
+    comment = get_object_or_404(models.Comment, pk=pk)
+    comment.approve_comment()
+    return redirect('blog:detail', pk=comment.post.pk)
+
+def comment_delete(request, pk):
+    comment = get_object_or_404(models.Comment, pk=pk)
+    post_pk = comment.post.pk
+    comment.delete()
+    return redirect('blog:detail', pk=post_pk)
