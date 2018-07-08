@@ -4,6 +4,7 @@ from . import models
 from .forms import CommentForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
+from django.utils import timezone
 
 
 class PostCreateView(LoginRequiredMixin, CreateView):
@@ -16,6 +17,10 @@ class PostCreateView(LoginRequiredMixin, CreateView):
 class PostListView(ListView):
     model = models.Post
     template_name = 'home.html'
+
+    def get_queryset(self):
+        # return models.Post.objects.filter(date_created__lte=timezone.now()).order_by('-date_created')
+        return models.Post.objects.filter(title__startswith='My')
 
 
 class DraftListView(LoginRequiredMixin, ListView):
@@ -55,6 +60,7 @@ def comment_approve(request, pk):
     comment = get_object_or_404(models.Comment, pk=pk)
     comment.approve_comment()
     return redirect('blog:detail', pk=comment.post.pk)
+
 
 def comment_delete(request, pk):
     comment = get_object_or_404(models.Comment, pk=pk)
