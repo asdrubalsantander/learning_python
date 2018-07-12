@@ -24,7 +24,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Groups</a>
+                <a class="nav-link" href="{% url 'list_group' %}">Groups</a>
             </li>
             {% if user.is_authenticated %}
             <!-- LOGGED IN BUTTONS -->
