@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} Group {% endblock %}
+
+{% block content %}
+{{group.name}}
+<br>
+Member count: {{group.user.all.count}}
+<br>
+<form method="POST">
+    {% if member %}
+    <input type="submit" value="Leave">
+    {% else %}
+    <input type="submit" value="Join">
+    {% endif %}
+</form>
+{% for post in group.post_set.all %}
+{{post.content}}
+{% empty %}
+<p>No Post Yet!</p>
+{% endfor %}
+{% endblock %}

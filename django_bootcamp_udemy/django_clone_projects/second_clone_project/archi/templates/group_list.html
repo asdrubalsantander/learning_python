@@ -4,9 +4,36 @@
 
 {% block content %}
 
-{% for group in group_list %}
-{{group.name}}
-
-{% endfor %}
+<div class="row">
+    <div class="col-sm-4">
+        {% if user.is_authenticated %}
+        <p>Welcome back @{{user.username}}</p>
+        {% else %}
+        <p> Welcome strange</p>
+        {% endif %}
+        <p>Groups</p>
+        <p>Welcome to the Groups Page! Select a Group with a shared interest!</p>
+        <a class="btn btn-primary" href="{% url 'create_group' %}"><span>+</span> Create a New Group!</a>
+    </div>
+    <div class="col-lg">
+        <div class="jumbotron">
+        {% for group in group_dict %}
+            <a href="{% url 'detail_group' pk=group.pk %}">{{group.name}}</a>
+            <br>
+            {{group.description|truncatechars:140}}
+            <br>
+            {{group.user.all.count}}
+            Member{{ group.user.all.count|pluralize }}
+            {{group.post_set.count}}
+            Post{{ group.post_set.count| pluralize }}
+            <br>
+            <br>
+        {% empty %}
+            <p>You don't have any group!</p>
+            <p> What are you waiting for?</p>
+        {% endfor %}
+        </div>
+    </div>
+</div>
 
 {% endblock %}

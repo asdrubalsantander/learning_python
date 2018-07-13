@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import login, authenticate
 from .forms import UserCreateForm, GroupCreateForm
+from .models import Topic
 from django.forms.models import model_to_dict
+from pprint import pprint
 
 
 def index_view(request):
@@ -34,8 +36,13 @@ def create_group_view(request):
 
 
 def list_groups_view(request):
-    user = request.user
-    groups = user.topic_set.all()
-    group_list = model_to_dict(groups)
+    groups = Topic.objects.all()
+    return render(request, 'group_list.html', context={'group_dict': groups})
 
-    return render(request, 'group_list.html', context=group_list)
+
+def detail_group_view(request, pk):
+    group_detail = Topic.objects.get(pk=pk)
+    user_is_member = False
+    if request.user.is_authenticated:
+        user_is_member = True if request.user.topic_set.filter(pk=pk).exists() else False
+    return render(request, 'group_detail.html', context={'group': group_detail, 'member': user_is_member})
