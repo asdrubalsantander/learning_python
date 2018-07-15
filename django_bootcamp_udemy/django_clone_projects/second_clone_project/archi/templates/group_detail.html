@@ -7,11 +7,12 @@
 <br>
 Member count: {{group.user.all.count}}
 <br>
-<form method="POST">
+<form action="{% url 'join_group' pk=group.pk %}" method="POST">
+    {% csrf_token %}
     {% if member %}
-    <input type="submit" value="Leave">
+    <input type="submit" value="Leave" name="leave_group">
     {% else %}
-    <input type="submit" value="Join">
+    <input type="submit" value="Join" name="join_group">
     {% endif %}
 </form>
 {% for post in group.post_set.all %}
