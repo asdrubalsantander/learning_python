@@ -8,6 +8,8 @@ class Topic(models.Model):
     created_date = models.DateField(auto_now_add=True)
     user = models.ManyToManyField(User, blank=True)
 
+    def __str__(self):
+        return self.name
 
 class Post(models.Model):
     created_date = models.DateField(auto_now_add=True)

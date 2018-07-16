@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import login, authenticate
-from .forms import UserCreateForm, GroupCreateForm
+from .forms import UserCreateForm, GroupCreateForm, PostCreateForm
 from .models import Topic
 from django.forms.models import model_to_dict
 from pprint import pprint
@@ -60,5 +60,18 @@ def join_group_view(request, pk):
         elif 'join_group' in request.POST:
             group.user.add(request.user)
             user_is_member = True
-
     return render(request, 'group_detail.html', context={'group': group, 'member': user_is_member})
+
+
+@login_required
+def create_post_view(request):
+    if request.method == "POST":
+        form = PostCreateForm(request.user, request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.user = request.user
+            post.save()
+            return redirect('detail_group', pk=post.topic.pk)
+    else:
+        form = PostCreateForm(request.user)
+        return render(request, 'post_form.html', {'form':form})

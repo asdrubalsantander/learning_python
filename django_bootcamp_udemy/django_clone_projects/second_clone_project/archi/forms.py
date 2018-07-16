@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
-from .models import Topic
+from .models import Topic, Post
 
 
 class UserCreateForm(UserCreationForm):
@@ -23,3 +23,17 @@ class GroupCreateForm(forms.ModelForm):
     class Meta:
         model = Topic
         fields = ['name', 'description']
+
+
+class PostCreateForm(forms.ModelForm):
+    class Meta:
+        model = Post
+        fields = ['content', 'topic']
+
+    def __init__(self, user, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        print("#######")
+        #print(kwargs.pop('topic'))
+        # print(args[0])
+        print("#######")
+        self.fields['topic'].queryset = Topic.objects.filter(user=user)
