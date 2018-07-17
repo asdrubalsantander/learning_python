@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %} {{username}}'s posts {% endblock %}
+
+{% block content %}
+{% for post in posts %}
+<a href="{% url 'detail_post' pk=post.id %}">{{post.title}}</a>
+{{ post.created_date }}
+{% empty %}
+<p> This user has no posts </p>
+{% endfor %}
+{% endblock %}

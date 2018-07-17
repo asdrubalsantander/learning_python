@@ -80,3 +80,8 @@ def create_post_view(request):
 def detail_post_view(request, pk):
     post = Post.objects.get(pk=pk)
     return render(request, 'post_detail.html', {'post': post})
+
+
+def user_post_view(request, username):
+    posts = Post.objects.filter(user__username=username)
+    return render(request, 'user_post_list.html', {'posts': posts, 'username': username})

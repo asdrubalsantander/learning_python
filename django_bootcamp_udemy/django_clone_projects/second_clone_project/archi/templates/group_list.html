@@ -7,7 +7,7 @@
 <div class="row">
     <div class="col-sm-4">
         {% if user.is_authenticated %}
-        <p>Welcome back @{{user.username}}</p>
+        <p>Welcome back <a href="{% url 'user_post' username=user.username%}">@{{user.username}}</a></p>
         {% else %}
         <p> Welcome strange</p>
         {% endif %}
