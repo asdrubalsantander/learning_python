@@ -11,8 +11,13 @@ class Topic(models.Model):
     def __str__(self):
         return self.name
 
+
 class Post(models.Model):
     created_date = models.DateField(auto_now_add=True)
+    title = models.CharField(max_length=140, blank=True)
     content = models.TextField()
     user = models.ForeignKey(User, on_delete=models.PROTECT)
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title

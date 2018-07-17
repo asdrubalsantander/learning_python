@@ -16,7 +16,11 @@ Member count: {{group.user.all.count}}
     {% endif %}
 </form>
 {% for post in group.post_set.all %}
-{{post.content}}
+<a href="{% url 'detail_post' pk=post.id %}">{{post.title}}</a>
+<br>
+{{post.created_date}}
+<span>by </span>{{post.user}}
+<br>
 {% empty %}
 <p>No Post Yet!</p>
 {% endfor %}

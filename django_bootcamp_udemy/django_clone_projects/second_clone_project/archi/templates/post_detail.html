@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %} {{post.title}} {% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1>{{post.title}}</h1>
+    <p>{{post.content}}</p>
+    {{post.created_date}}
+    by {{post.user.username}}
+</div>
+{% endblock %}

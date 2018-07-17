@@ -28,12 +28,8 @@ class GroupCreateForm(forms.ModelForm):
 class PostCreateForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = ['content', 'topic']
+        fields = ['title', 'content', 'topic']
 
     def __init__(self, user, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        print("#######")
-        #print(kwargs.pop('topic'))
-        # print(args[0])
-        print("#######")
         self.fields['topic'].queryset = Topic.objects.filter(user=user)
