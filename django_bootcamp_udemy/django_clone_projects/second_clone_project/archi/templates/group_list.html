@@ -16,7 +16,7 @@
         <a class="btn btn-primary" href="{% url 'create_group' %}"><span>+</span> Create a New Group!</a>
     </div>
     <div class="col-lg">
-        <div class="jumbotron">
+        <div class="jumbotron bg-transparent">
         {% for group in group_dict %}
             <a href="{% url 'detail_group' pk=group.pk %}">{{group.name}}</a>
             <br>
