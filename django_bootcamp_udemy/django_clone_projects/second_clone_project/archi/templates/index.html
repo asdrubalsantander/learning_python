@@ -4,11 +4,19 @@
 
 {% block content %}
 
-
 <div class="jumbotron bg-transparent">
+{% if not user.is_authenticated %}
     <h1>Welcome to ARCHI</h1>
     <p>The best community for all things on outer space!</p>
-    <p>Login or Sign-up for free to get started!</p>
+    <p>
+        <a class="links" href="{% url 'login' %}">Log in</a> or
+        <a class="links" href="{% url 'signup' %}">Sign-up</a> for free to get started!</p>
+{% else %}
+    <h1>Welcome back to ARCHI
+        <a class="links" href="{% url 'user_post' username=user.username%}">@{{user.username}}</a>
+    </h1>
+    <p>The best community for all things on outer space!</p>
+    <p>Continue the conversation!</p>
+{% endif %}
 </div>
-
 {% endblock %}
