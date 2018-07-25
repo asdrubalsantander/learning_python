@@ -7,7 +7,9 @@
 <div class="row">
     <div class="col-sm-4">
         {% if user.is_authenticated %}
-        <p>Welcome back <a href="{% url 'user_post' username=user.username%}">@{{user.username}}</a></p>
+        <p>Welcome back
+            <a class="links" href="{% url 'user_post' username=user.username%}">@{{user.username}}</a>
+        </p>
         {% else %}
         <p> Welcome strange</p>
         {% endif %}
@@ -18,7 +20,7 @@
     <div class="col-lg">
         <div class="jumbotron bg-transparent">
         {% for group in group_dict %}
-            <a href="{% url 'detail_group' pk=group.pk %}">{{group.name}}</a>
+            <a class="links" href="{% url 'detail_group' pk=group.pk %}">{{group.name}}</a>
             <br>
             {{group.description|truncatechars:140}}
             <br>

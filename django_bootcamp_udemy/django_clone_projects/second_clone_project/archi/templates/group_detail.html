@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %} Group {% endblock %}
+{% block title %} Group {{group.name}} {% endblock %}
 
 {% block content %}
 {{group.name}}
@@ -10,16 +10,17 @@ Member count: {{group.user.all.count}}
 <form action="{% url 'join_group' pk=group.pk %}" method="POST">
     {% csrf_token %}
     {% if member %}
-    <input type="submit" value="Leave" name="leave_group">
+    <input class="btn btn-danger" type="submit" value="Leave" name="leave_group">
     {% else %}
-    <input type="submit" value="Join" name="join_group">
+    <input class="btn btn-primary" type="submit" value="Join" name="join_group">
     {% endif %}
 </form>
+<br>
 {% for post in group.post_set.all %}
-<a href="{% url 'detail_post' pk=post.id %}">{{post.title}}</a>
+<a class="links" href="{% url 'detail_post' pk=post.id %}">{{post.title}}</a>
 <br>
 {{post.created_date}}
-<span>by </span>{{post.user}}
+<span>by </span><a class="links" href="{% url 'user_post' username=post.user %}">@{{post.user}}</a>
 <br>
 {% empty %}
 <p>No Post Yet!</p>

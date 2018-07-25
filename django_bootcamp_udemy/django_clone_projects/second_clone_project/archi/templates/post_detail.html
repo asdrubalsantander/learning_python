@@ -7,6 +7,6 @@
     <h1>{{post.title}}</h1>
     <p>{{post.content}}</p>
     {{post.created_date}}
-    by {{post.user.username}}
+    by <a class="links" href="{% url 'user_post' username=post.user %}">@{{post.user}}</a>
 </div>
 {% endblock %}
