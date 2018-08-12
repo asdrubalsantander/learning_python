@@ -7,19 +7,21 @@ import re
 import sys
 
 
-
 # Complete the minimumBribes function below.
 def minimumBribes(q):
     number_bribes = 0
+    posible_persons = [1, 2, 3]  # List of possibles next persons
+
     for position, person in enumerate(q, start=1):
-        if (position - person) < -2:
+        if person not in posible_persons:
             print("Too chaotic")
             break
-        elif position < person:
-            number_bribes += person - position
-        elif position + 2 < len(q):
-
-
+        else:
+            number_bribes += posible_persons.index(person)
+            next_person = max(posible_persons) + 1
+            posible_persons.remove(person)
+            if next_person <= len(q):
+                posible_persons.append(next_person)
     else:
         print(number_bribes)
 
