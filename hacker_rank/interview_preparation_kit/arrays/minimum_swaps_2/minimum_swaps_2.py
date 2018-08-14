@@ -11,8 +11,9 @@ import time
 # Complete the minimumSwaps function below.
 def minimumSwaps(arr):
     count_swaps = 0
+    sorted_array = sorted(arr)
     for position, number in enumerate(arr):
-        smallest_number = min(arr[position:])
+        smallest_number = sorted_array[position]
         if number != smallest_number:
             smallest_index = arr.index(smallest_number)
             arr[position], arr[smallest_index] = arr[smallest_index], arr[position]
