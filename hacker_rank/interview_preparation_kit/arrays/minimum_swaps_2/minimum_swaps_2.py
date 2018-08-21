@@ -9,14 +9,24 @@ import time
 
 
 # Complete the minimumSwaps function below.
+
+def my_gen(arr):
+    for number in arr:
+        yield number
+
+
 def minimumSwaps(arr):
     count_swaps = 0
     sorted_array = sorted(arr)
+    index_dict = {number: position for position, number in enumerate(arr)}
+
     for position, number in enumerate(arr):
         smallest_number = sorted_array[position]
         if number != smallest_number:
-            smallest_index = arr.index(smallest_number)
+            smallest_index = index_dict[smallest_number]
             arr[position], arr[smallest_index] = arr[smallest_index], arr[position]
+            index_dict[smallest_number] = position
+            index_dict[number] = smallest_index
             count_swaps += 1
 
     return count_swaps
